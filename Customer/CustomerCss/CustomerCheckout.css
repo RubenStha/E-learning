@@ -1,0 +1,77 @@
+.checkout{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    background:#e9e5e5;
+}
+.checkout > div {
+background-color: rgba(255, 255, 255, 0.8);
+  
+}
+table, td, th {
+  text-align: center;
+  border: none;
+}
+th{
+    background: #222121;
+    color: #fff;
+    height: 50px;
+}
+
+table {
+  width: 100%;
+}
+#mytable tr:nth-child(even)
+{
+    background-color: #f5bdbd;
+}
+#mytable tr:nth-child(odd)
+{
+    background-color: #f76f6f;
+}
+#gtotal
+{
+    padding: 20px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 20px;
+    
+}
+.order-summary
+{
+    padding: 10px;
+}
+.order-summary p{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.shipping-title{
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#contact-upt, #email-upt,#Confirmation-msg{
+    display: none;
+}
+
+#Confirmation-msg{
+    position: absolute;
+    padding: 50px 0;
+   text-align: center;
+    z-index: 8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    background: #e2dada;
+    border: 1px solid black;
+    border-radius: 5px;
+}

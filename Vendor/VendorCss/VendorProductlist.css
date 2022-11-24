@@ -1,0 +1,54 @@
+@import "VendorNav.css";
+
+.header h2{
+    line-height: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #353232;
+}
+.btn{
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    background: #437be2e5;
+    border: 1px solid #353232;
+    cursor: pointer;
+
+}
+.add-product{
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.search{
+    width: 100%;
+    text-align: right;
+}
+.search select{
+    background-color: lavender;
+    text-align: center;
+}
+table{
+    margin-top: 30px;
+    width: 100%;
+    
+}
+th{
+    height: 40px;
+    background: rgb(182, 176, 176);
+    color: #000;
+}
+td,th{
+    
+    text-align: center;
+    padding: 15px;
+}
+table tr{
+border-bottom: 1px solid black;
+}
+.button{
+    width: 30%;
+    height: 25px;
+}
